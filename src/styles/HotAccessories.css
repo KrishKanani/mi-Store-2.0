@@ -1,0 +1,21 @@
+.HotAccessories {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.musicCover img {
+    cursor: pointer;
+    width: 22vw;
+    transition: all 0.5s;
+}
+
+.musicCover img:hover {
+    transform: translateY(-0.4vmax);
+    box-shadow: 0 6pc 15pc rgba(53, 53, 53, 0.363);
+}
+
+.HotAccessories>div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+}
